@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-        const response = await fetch('https://pokeapi.co/api/v2/pokemon/ditto');
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon/onix');
         const data = await response.json();
         
         // Substituir os dados no HTML
